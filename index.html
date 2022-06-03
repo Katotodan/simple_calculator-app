@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple calculator</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <main>
+        <aside>
+            <input type="text" id="input_displayer">
+            <input type="text" id="output_displayer">
+        </aside>
+        <aside>
+            <table>
+                <tr>
+                    <td class="operator toNull">C</td>
+                    <td class="operator simple">/</td>
+                    <td class="operator simple">*</td>
+                    <td class="operator reduice"><i class="fa-solid fa-delete-left"></i></td>
+                </tr>
+                <tr>
+                    <td class="number">7</td>
+                    <td class="number" >8</td>
+                    <td class="number">9</td>
+                    <td class="operator simple">-</td>
+                </tr>
+                <tr>
+                    <td class="number">4</td>
+                    <td class="number">5</td>
+                    <td class="number">6</td>
+                    <td class="operator simple">+</td>
+                </tr>
+                <tr>
+                    <td class="number">1</td>
+                    <td class="number">2</td>
+                    <td class="number">3</td>
+                    <td class="operator equal" rowspan="2" id="equal">=</td>
+                </tr>
+                <tr>
+                    <td  class="number twoZero">00</td>
+                    <td class="number oneZero">0</td>
+                    <td class="number">.</td>
+                </tr>
+            </table> 
+        </aside>
+    </main>
+
+    <script src="./app.js"></script>
+</body>
+</html>

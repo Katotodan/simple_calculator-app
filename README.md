@@ -1,0 +1,1 @@
+This is a simple calculator app performing basic function of a calculator
