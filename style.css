@@ -79,10 +79,10 @@ aside td:hover{
     }   
 }
 @media  screen and (max-width:450px) {
-    body{
-        height: 75vh;
-    }
     main{
+        position: absolute;
+        left: 0;
+        top: 0;
         border-radius: 0px;
         width: 100%;
         margin-top: 0rem;  
