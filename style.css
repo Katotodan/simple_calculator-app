@@ -83,6 +83,7 @@ aside td:hover{
         height: 100%;
     }
     main{
+        border-radius: 0px;
         width: 100%;
         margin-top: 0rem;  
         height: 100%;
